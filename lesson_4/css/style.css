@@ -1,0 +1,78 @@
+/* IMPORT CSS FILES */
+@import url(reset.css);
+
+/* HEADER */
+.header,
+.hero,
+.screen {
+    font-size: 20px;
+}
+/* HERO */
+.hero__text-wrap p {
+    color: green;
+}
+/* SCREEN */
+.screen__text-wrap > p {
+    color: blueviolet;
+}
+.screen__image {
+    max-width: 600px;
+    width: 100%;
+}
+/* DESIGN */
+.design__title.title {
+    color: rebeccapurple;
+}
+.design__image {
+    max-width: 600px;
+    width: 100%;
+}
+/* WALLPAPER */
+.wallpaper + div {
+    color: orangered;
+}
+.wallpaper__text-wrap span {
+    color: chartreuse;
+}
+.wallpaper__image {
+    max-width: 600px;
+    width: 100%;
+}
+/* NAVIGATION */
+.navigation .navigation__title {
+    color: tomato;
+}
+.navigation__image {
+    max-width: 600px;
+    width: 100%;
+}
+/* FOOTER */
+.footer * {
+    font-size: 18px !important;
+}
+.footer__item-social ~ li {
+    color: teal;
+}
+/* COMMON, ID */
+.title {
+    line-height: 1.2;
+}
+p {
+    font-size: 18px;
+}
+li a {
+    text-decoration: underline;
+}
+h1.title {
+    font-size: 24px;
+}
+h2,
+h3 {
+    font-size: 20px;
+}
+[class*="__title"] {
+    color: palevioletred;
+}
+#screen {
+    font-size: 22px;
+}
