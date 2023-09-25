@@ -1,0 +1,183 @@
+/* LOCAL FONTS */
+@import url("fonts.css");
+
+/* RESET STYLES */
+@import url("reset.css");
+
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: #7d7d7d;
+
+}
+
+/* HEADER */
+.header {
+    padding: 10px;
+    text-align: center;
+}
+.header__item {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.header__link {
+    text-decoration: underline;
+    color: rgba(18, 18, 190, 0.808);
+}
+
+/* INTERNATIONAL */
+.international {
+    max-width: 722px;
+    margin: 0 auto;
+    padding: 15px 15px 0 15px;
+    overflow: hidden;
+}
+.international__image {
+    max-width: 100%;
+    margin: 0 0 24px 0;
+}
+.international__title {
+    color: #37393f;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.27;
+    margin-bottom: 12px;
+    text-transform: capitalize;
+}
+.international__text p {
+    margin-bottom: 42px;
+    line-height: 1.46;
+}
+.international__sub-title {
+    color: #6b77e5;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.27;
+    margin-bottom: 15px;
+}
+
+/* BENEFITS */
+.benefits__image {
+    max-width: 45%;
+    margin: 0 12px 0 0;
+}
+.benefits__wrapper {
+    display: inline-block;
+    max-width: 50%;
+}
+.benefits__title {
+    color: #37393f;
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.27;
+    margin-bottom: 12px;
+}
+.benefits__sub-title {
+    color: #40ddb6;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.27;
+    margin-bottom: 23px;
+}
+.benefits__list li {
+    margin-bottom: 35px;
+    list-style: inside;
+}
+
+/* JEWELLERY */
+.jewellery__wrapper {
+    max-width: 1337px;
+    margin: 0 auto;
+    padding: 15px 15px 0 15px;
+}
+.jewellery__text-wrapper {
+    display: inline-block;
+    max-width: 563px;
+    vertical-align: bottom;
+    padding: 21px 0;
+    margin-right: 38px;
+}
+.jewellery__label {
+    color: #d06b00;
+    font-size: 28px;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+.jewellery__title {
+    color: #0E333D;
+    font-family: "DM Serif Text";
+    font-size: 59px;
+    line-height: 1.46;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.jewellery__text {
+    color: #474747;
+    font-size: 20px;
+    line-height: 1.8;
+}
+.jewellery__image-wrapper {
+    display: inline-block;
+    max-width: 100%;
+}
+.jewellery__image-wrapper img {
+    max-width: 273px;
+}
+.jewellery__image--first {
+    margin-right: 20px;
+}
+
+/* LOREM */
+.lorem {
+    padding: 20px 0;
+}
+.lorem__text {
+    min-width: 300px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+.lorem--scroll {
+    overflow: scroll;
+}
+.lorem--auto {
+    overflow: auto;
+}
+.lorem__span-none {
+    display: none;
+}
+.lorem__span-block {
+    display: block;
+}
+
+/* FOOTER */
+.footer {
+    min-height: 120px;
+    padding: 15px 0 15px;
+}
+.footer__wrapper {
+    width: 300px;
+    max-height: 300px;
+    margin: 0 auto;
+    padding: 0 15px;
+    text-align: center;
+}
+.footer__title {
+    color: #37393f;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.27;
+    margin: 0 0 15px 0;
+}
+.footer__list  li {
+    margin-bottom: 10px;
+}
+.footer__link {
+    color: #d06b00;
+    text-decoration: underline;
+}
