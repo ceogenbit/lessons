@@ -52,8 +52,8 @@ body {
     margin-bottom: 25px;
 }
 .rastr__image-wrapper img {
-    max-width: 300px;
-    padding: 30px;
+    max-width: 100%;
+    padding: 20px;
     vertical-align: middle;
 }
 .rastr__image-wrapper img:not(:last-child) {
