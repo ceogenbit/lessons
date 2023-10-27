@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 11 BEM BEM BEM XD</title>
+    <link rel="stylesheet" href="css/reset.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <div class="logo">
+                <img src="img/header/logo.svg" alt="Logo">
+            </div>
+            <ul class="header__items">
+                <li class="header__item"><a href="#" class="header__link">Shop</a></li>  
+                <li class="header__item"><a href="#" class="header__link">Men</a></li>
+                <li class="header__item"><a href="#" class="header__link header__link--active">Women</a></li>
+                <li class="header__item"><a href="#" class="header__link">Combos</a></li>
+                <li class="header__item"><a href="#" class="header__link">Joggers </a></li>             
+            </ul>
+            <div class="header__search search">
+                <div class="search__icon">
+                    <img src="img/header/icons/search.svg" alt="Search">
+                </div>
+                <input class="search__input" placeholder="Search"></input> 
+            </div>
+            <div class="header__part-client client-part">
+                <div class="favorite-icon">
+                    <a class="favorite-icon__link" href="#">
+                        <img src="img/header/icons/favorite.svg" alt="Favorite">
+                    </a>
+                </div>
+                <div class="client-icon">
+                    <a class="client-icon__link" href="#">
+                        <img src="img/header/icons/client.svg" alt="Client">
+                    </a>
+                </div>
+                <div class="cart-icon">
+                    <a class="cart-icon__link" href="#">
+                        <img src="img/header/icons/cart.svg" alt="Cart">
+                    </a>
+                </div>
+            </div> 
+        </div>
+    </header>
+    <main class="page">
+        <div class="page__hero hero">
+            <div class="hero__container">
+                <div class="hero__preview preview">
+                    <div class="preview__small-images images-small">
+                        <div class="images-small__wrap">
+                            <div class="images-small__first-img">
+                                <img src="img/hero/preview/preview_01.webp" alt="Preview">
+                            </div>
+                            <div class="images-small__center-img images-small__center-img--active">
+                                <img src="img/hero/preview/preview_02.webp" alt="Preview">
+                            </div>
+                            <div class="images-small__last-img">
+                                <img src="img/hero/preview/preview_03.webp" alt="Preview">
+                            </div>
+                        </div>
+                        <div class="images-small__arrows">
+                            <div class="images-small__arrow-up">
+                                <img src="img/hero/preview/arrow_up.svg" alt="Arrow up">
+                            </div>
+                            <div class="images-small__arrow-down">
+                                <img src="img/hero/preview/arrow_down.svg" alt="Down up">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="preview__general-image">
+                        <img src="img/hero/preview/girl.webp" alt="Girl">
+                    </div>
+                </div>
+                <div class="hero__part-info">
+                    <ul class="hero__path path">
+                        <li class="path__item">
+                            <a href="#" class="path__link">Shop</a>
+                        </li>
+                        <li class="path__item">
+                            <a href="#" class="path__link">Women</a>
+                        </li>
+                        <li class="path__item">
+                            <a href="#" class="path__link">Top</a>
+                        </li>
+                    </ul>
+                    <h1 class="title title--big">Raven Hoodie With Black colored Design</h1>
+                    <div class="hero__feedback feedback">
+                        <ul class="feedback__stars">
+                            <li class="feedback__item">
+                                <img src="img/hero/info/feedback/star.svg" alt="Star">
+                            </li>
+                            <li class="feedback__item">
+                                <img src="img/hero/info/feedback/star.svg" alt="Star">
+                            </li>
+                            <li class="feedback__item">
+                                <img src="img/hero/info/feedback/star.svg" alt="Star">
+                            </li>
+                            <li class="feedback__item">
+                                <img src="img/hero/info/feedback/star.svg" alt="Star">
+                            </li>
+                            <li class="feedback__item">
+                                <img src="img/hero/info/feedback/star.svg" alt="Star">
+                            </li>
+                        </ul>
+                        <div class="feedback__number">3.5</div>
+                        <div class="feedback__comments comments">
+                            <div class="comments__icon">
+                                <img src="img/hero/info/feedback/comment.svg" alt="Comment">
+                            </div>
+                        </div>                        
+                    </div>
+                    <div class="hero__size size">
+                        <div class="size__select-wrap">
+                            <div class="size__select">Select Size</div>
+                            <a class="size__guide" href="#">Size Guide</a>
+                        </div>
+                        <ul class="size__sizes">
+                            <li class="size__item">
+                                <button class="size__button" type="button">XS</button>
+                            </li>
+                            <li class="size__item">
+                                <button class="size__button" type="button">S</button>
+                            </li>
+                            <li class="size__item">
+                                <button class="size__button" type="button">M</button>
+                            </li>
+                            <li class="size__item">
+                                <button class="size__button size__button--active" type="button">L</button>
+                            </li>
+                            <li class="size__item">
+                                <button class="size__button" type="button">XL</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="hero__colours colours">
+                        <div class="colours__title">Colours Available</div>
+                        <ul class="colours__colors-list">
+                            <li class="colours__item colours__item--active">
+                                <button class="colours__button-item colours__button-item--gray" type="button"></button>
+                            </li>
+                            <li class="colours__item">
+                                <button class="colours__button-item colours__button-item--yellow" type="button"></button>
+                            </li>
+                            <li class="colours__item">
+                                <button class="colours__button-item colours__button-item--pink" type="button"></button>
+                            </li>
+                            <li class="colours__item">
+                                <button class="colours__button-item colours__button-item--red" type="button"></button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="hero__buttons">
+                        <button class="button">Add to cart</button>
+                        <button class="price-button">$63.00</button>
+                    </div>
+                    <ul class="hero__information information">
+                        <li class="information__item">
+                            <div class="information__icon">
+                                <img src="img/hero/info/information/secure_icon.svg" alt="Secure payment">
+                            </div>
+                            <div class="information__text">Secure payment</div>
+                        </li>
+                        <li class="information__item">
+                            <div class="information__icon">
+                                <img src="img/hero/info/information/fit_icon.svg" alt="Size and fit">
+                            </div>
+                            <div class="information__text">Size & Fit</div>
+                        </li>
+                        <li class="information__item">
+                            <div class="information__icon">
+                                <img src="img/hero/info/information/shipping_icon.svg" alt="Free shipping">
+                            </div>
+                            <div class="information__text">Free shipping</div>
+                        </li>
+                        <li class="information__item">
+                            <div class="information__icon">
+                                <img src="img/hero/info/information/returns_icon.svg" alt="Free shipping and returns">
+                            </div>
+                            <div class="information__text">Free Shipping & Returns</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="page__product product">
+            <div class="product__container">
+                <div class="product__info">
+                    <h2 class="title">Product Description</h2>
+                    <div class="product__tabs">
+                        <ul class="product__tabs-inner">
+                            <li class="product__tabs-item product__tabs-item--active">
+                                <button class="product__tabs-button product__tabs-button--active" type="button">Description</button>
+                            </li>
+                            <li class="product__tabs-item">
+                                <button class="product__tabs-button" type="button">User comments</button>
+                            </li>
+                            <li class="product__tabs-item">
+                                <button class="product__tabs-button" type="button">Question & Answer</button>
+                            </li>
+                        </ul>
+                        <div class="product__tabs-content">
+                            <p>
+                                100% Bio-washed Cotton – makes the fabric extra soft & silky. Flexible ribbed crew neck. 
+                                Precisely stitched with no pilling & no fading. Provide  all-time comfort. Anytime, anywhere. 
+                                Infinite range of matte-finish HD prints.
+                            </p>
+                        </div>
+                    </div>
+                    <ul class="product__columns columns-product">
+                        <li class="columns-product__item">
+                            <div class="columns-product__label">Fabric</div>
+                            <div class="columns-product__info">Bio-washed Cotton</div>
+                        </li>
+                        <li class="columns-product__item">
+                            <div class="columns-product__label">Pattern</div>
+                            <div class="columns-product__info">Printed</div>
+                        </li>
+                        <li class="columns-product__item">
+                            <div class="columns-product__label">Fit</div>
+                            <div class="columns-product__info">Regular-fit</div>
+                        </li>
+                        <li class="columns-product__item">
+                            <div class="columns-product__label">Neck</div>
+                            <div class="columns-product__info">Round Neck</div>
+                        </li>
+                        <li class="columns-product__item">
+                            <div class="columns-product__label">Sleeve</div>
+                            <div class="columns-product__info">Half-sleeves</div>
+                        </li>
+                        <li class="columns-product__item">
+                            <div class="columns-product__label">Style</div>
+                            <div class="columns-product__info">Casual Wear</div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="product__video video">Tут має бути відeо</div>
+            </div>
+        </div>
+        <div class="page__similar similar">
+            <div class="similar__container">
+                <h2 class="title">Similar Products</h2>
+                <ul class="similar__grid-list grid">
+                    <li class="grid__item item-grid">
+                        <div class="favorite-icon">
+                            <button class="favorite-icon__button">
+                                <img src="img/similar/favorite_icon.svg" alt="Favorite">
+                            </button>
+                        </div>
+                        <a class="item-grid__product-img" href="#">
+                            <img src="img/similar/grid_01.webp" alt="Product">
+                        </a>
+                        <div class="item-grid__text-wrap">
+                            <div class="item-grid__text-inner">
+                                <a class="item-grid__name-product" href="#">White T-Shirt</a>
+                                <div class="item-grid__brand">Priya’s Brand</div>
+                            </div>
+                            <div class="item-grid__price">$13.00</div>
+                        </div>
+                    </li>
+                    <li class="grid__item item-grid">
+                        <div class="favorite-icon">
+                            <button class="favorite-icon__button">
+                                <img src="img/similar/favorite_icon.svg" alt="Favorite">
+                            </button>
+                        </div>
+                        <a class="item-grid__product-img" href="#">
+                            <img src="img/similar/grid_02.webp" alt="Product">
+                        </a>
+                        <div class="item-grid__text-wrap">
+                            <div class="item-grid__text-inner">
+                                <a class="item-grid__name-product" href="#">Dark Green Sweatshirt....</a>
+                                <div class="item-grid__brand">Roboto’s Brand</div>
+                            </div>
+                            <div class="item-grid__price">$127.00</div>
+                        </div>
+                    </li>
+                    <li class="grid__item item-grid">
+                        <div class="favorite-icon">
+                            <button class="favorite-icon__button">
+                                <img src="img/similar/favorite_icon.svg" alt="Favorite">
+                            </button>
+                        </div>
+                        <a class="item-grid__product-img" href="#">
+                            <img src="img/similar/grid_03.webp" alt="Product">
+                        </a>
+                        <div class="item-grid__text-wrap">
+                            <div class="item-grid__text-inner">
+                                <a class="item-grid__name-product" href="#">Levender Sweatshirt ....</a>
+                                <div class="item-grid__brand">Jhanvi’s  Brand</div>
+                            </div>
+                            <div class="item-grid__price">$133.00</div>
+                        </div>
+                    </li>
+                    <li class="grid__item item-grid">
+                        <div class="favorite-icon">
+                            <button class="favorite-icon__button">
+                                <img src="img/similar/favorite_icon.svg" alt="Favorite">
+                            </button>
+                        </div>
+                        <div class="item-grid__product-img">
+                            <a src="img/similar/grid_04.webp" alt="Product" href="#">
+                        </div>
+                        <div class="item-grid__text-wrap">
+                            <div class="item-grid__text-inner">
+                                <a class="item-grid__name-product" href="#">Urban jacket with white ....</a>
+                                <div class="item-grid__brand">Sagar’s  Brand</div>
+                            </div>
+                            <div class="item-grid__price">$79.00</div>
+                        </div>
+                    </li>
+                    <li class="grid__item item-grid">
+                        <div class="favorite-icon">
+                            <button class="favorite-icon__button">
+                                <img src="img/similar/favorite_icon.svg" alt="Favorite">
+                            </button>
+                        </div>
+                        <a class="item-grid__product-img" href="#">
+                            <img src="img/similar/grid_05.webp" alt="Product">
+                        </a>
+                        <div class="item-grid__text-wrap">
+                            <div class="item-grid__text-inner">
+                                <a class="item-grid__name-product" href="#">Plain White T-Shirt</a>
+                                <div class="item-grid__brand">Jhanvi’s  Brand</div>
+                            </div>
+                            <div class="item-grid__price">$123.00</div>
+                        </div>
+                    </li>
+                    <li class="grid__item item-grid">
+                        <div class="favorite-icon">
+                            <button class="favorite-icon__button">
+                                <img src="img/similar/favorite_icon.svg" alt="Favorite">
+                            </button>
+                        </div>
+                        <a class="item-grid__product-img" href="#">
+                            <img src="img/similar/grid_06.webp" alt="Product">
+                        </a>
+                        <div class="item-grid__text-wrap">
+                            <div class="item-grid__text-inner">
+                                <a class="item-grid__name-product" href="#">Checks Shirt with white.....</a>
+                                <div class="item-grid__brand">H.M’s  Brand</div>
+                            </div>
+                            <div class="item-grid__price">$123.00</div>
+                        </div>
+                    </li>
+                    <li class="grid__item item-grid">
+                        <div class="favorite-icon">
+                            <button class="favorite-icon__button">
+                                <img src="img/similar/favorite_icon.svg" alt="Favorite">
+                            </button>
+                        </div>
+                        <a class="item-grid__product-img" href="#">
+                            <img src="img/similar/grid_07.webp" alt="Product">
+                        </a>
+                        <div class="item-grid__text-wrap">
+                            <div class="item-grid__text-inner">
+                                <a class="item-grid__name-product" href="#">One piece black top & ....</a>
+                                <div class="item-grid__brand">Nike’s  Brand</div>
+                            </div>
+                            <div class="item-grid__price">$123.00</div>
+                        </div>
+                    </li>
+                    <li class="grid__item item-grid">
+                        <div class="favorite-icon">
+                            <button class="favorite-icon__button">
+                                <img src="img/similar/favorite_icon.svg" alt="Favorite">
+                            </button>
+                        </div>
+                        <a class="item-grid__product-img" href="#">
+                            <img src="img/similar/grid_08.webp" alt="Product">
+                        </a>
+                        <div class="item-grid__text-wrap">
+                            <div class="item-grid__text-inner">
+                                <a class="item-grid__name-product" href="#">Denim Blue Shirt</a>
+                                <div class="item-grid__brand">MOMO’s  Brand</div>
+                            </div>
+                            <div class="item-grid__price">$38.00</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__container">
+            <ul class="footer__columns">
+                <li class="footer__item">
+                    <div class="footer__title">Need Help</div>
+                    <ul class="footer__help-list">
+                        <li class="footer__help-item">
+                            <a href="#" class="footer__help-link">Contact Us</a>
+                        </li>
+                        <li class="footer__help-item">
+                            <a href="#" class="footer__help-link">Track Order</a>
+                        </li>
+                        <li class="footer__help-item">
+                            <a href="#" class="footer__help-link">Returns & Refunds</a>
+                        </li>
+                        <li class="footer__help-item">
+                            <a href="#" class="footer__help-link">FAQ's</a>
+                        </li>
+                        <li class="footer__help-item">
+                            <a href="#" class="footer__help-link">Career</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="footer__item">
+                    <div class="footer__title">Company</div>
+                    <ul class="footer__help-list">
+                        <li class="footer__help-item">
+                            <a href="#" class="footer__help-link">About Us</a>
+                        </li>
+                        <li class="footer__help-item">
+                            <a href="#" class="footer__help-link">euphoria Blog</a>
+                        </li>
+                        <li class="footer__help-item">
+                            <a href="#" class="footer__help-link">euphoriastan</a>
+                        </li>
+                        <li class="footer__help-item">
+                            <a href="#" class="footer__help-link">Collaboration</a>
+                        </li>
+                        <li class="footer__help-item">
+                            <a href="#" class="footer__help-link">Media</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="footer__item">
+                    <div class="footer__title">More Info</div>
+                    <ul class="footer__help-list">
+                        <li class="footer__help-item">
+                            <a href="#" class="footer__help-link">Term and Conditions</a>
+                        </li>
+                        <li class="footer__help-item">
+                            <a href="#" class="footer__help-link">Privacy Policy</a>
+                        </li>
+                        <li class="footer__help-item">
+                            <a href="#" class="footer__help-link">Shipping Policy</a>
+                        </li>
+                        <li class="footer__help-item">
+                            <a href="#" class="footer__help-link">Sitemap</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="footer__item">
+                    <div class="footer__title">Location</div>
+                    <ul class="footer__help-list">
+                        <li class="footer__help-item">
+                            <a href="mailto:support@euphoria.in"  class="footer__help-link">support@euphoria.in</a>
+                        </li>
+                        <li class="footer__help-item">
+                            <a href="#" class="footer__help-link">Eklingpura Chouraha, Ahmedabad Main Road</a>
+                        </li>
+                        <li class="footer__help-item">
+                            <a href="#" class="footer__help-link">(NH 8- Near Mahadev Hotel) Udaipur, India- 313002</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="footer__socials">
+                <ul class="footer__socials-list">
+                    <li class="footer__socials-item">
+                        <a href="#" class="footer__socials-link">
+                            <img src="img/footer/facebook_icon.svg" alt="Facebook">
+                        </a>
+                    </li>
+                    <li class="footer__socials-item">
+                        <a href="#" class="footer__socials-link">
+                            <img src="img/footer/instagram_icon.svg" alt="Instagram">
+                        </a>
+                    </li>
+                    <li class="footer__socials-item">
+                        <a href="#" class="footer__socials-link">
+                            <img src="img/footer/twitter_icon.svg" alt="Twitter">
+                        </a>
+                    </li>
+                    <li class="footer__socials-item">
+                        <a href="#" class="footer__socials-link">
+                            <img src="img/footer/linkedin_icon.svg" alt="Linkedin">
+                        </a>
+                    </li>
+                </ul>
+                <div class="footer__download">
+                    <div class="footer__download-title">Download The App </div>
+                    <ul class="footer__download-links">
+                        <li class="footer__download-item">
+                            <a href="#" class="footer__download-link">
+                                <img src="img/footer/google_play.webp" alt="Google play">
+                            </a>
+                        </li>
+                        <li class="footer__download-item">
+                            <a href="#" class="footer__download-link">      
+                                <img src="img/footer/app_store.webp" alt="App store">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__spoiler">Popular Categories</div>
+                <div class="footer__copyright">Copyright © 2023 Euphoria Folks Pvt Ltd. All rights reserved.</div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
