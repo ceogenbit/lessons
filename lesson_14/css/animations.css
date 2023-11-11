@@ -1,0 +1,63 @@
+/* WHELLS */
+@keyframes wheels {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(-180deg);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+/* CAR */
+@keyframes car {
+    0% {
+        transform: translate(0px);
+    }
+    25% {
+        transform: translate(150px, 10px);
+    }
+    50% {
+        transform: translate(-150px, 10);
+    }
+    75% {
+        transform: translate(30px, -30px);
+    }
+    100% {
+        transform: translate(0px);
+    }
+}
+
+/* WATCH */
+@keyframes watch {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* NIGHT */
+@keyframes night {
+    0% {
+        background-color: #0a121800;
+    }
+    25% {
+        background-color: #0a1218a1;
+    }
+    50% {
+        background-color: #0a1218e8;
+    }
+    75% {
+        background-color: #0a1218be;
+    }
+    100% {
+        background-color: #0a121800;
+    }
+}
