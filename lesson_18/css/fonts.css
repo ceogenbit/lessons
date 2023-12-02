@@ -1,0 +1,61 @@
+/* Cormorant Infant */
+@font-face {
+    font-family: "Cormorant Infant";
+    font-display: swap;
+    src: 
+        url("../fonts/CormorantInfant-SemiBold.woff2") format("woff2"), 
+        url("../fonts/CormorantInfant-SemiBold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Cormorant Infant";
+    font-display: swap;
+    src: 
+        url("../fonts/CormorantInfant-Bold.woff2") format("woff2"), 
+        url("../fonts/CormorantInfant-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Merriweather */
+@font-face {
+    font-family: "Merriweather";
+    font-display: swap;
+    src: 
+        url("../fonts/Merriweather-Regular.woff2") format("woff2"), 
+        url("../fonts/Merriweather-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Merriweather";
+    font-display: swap;
+    src: 
+        url("../fonts/Merriweather-BoldItalic.woff2") format("woff2"), 
+        url("../fonts/Merriweather-BoldItalic.woff") format("woff");
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* Inter */
+@font-face {
+    font-family: "Inter";
+    font-display: swap;
+    src: 
+        url("../fonts/Inter-Regular.woff2") format("woff2"), 
+        url("../fonts/Inter-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* DM Serif Text */
+@font-face {
+    font-family: "DM Serif Text";
+    font-display: swap;
+    src: 
+        url("../fonts/DMSerifText-Regular.woff2") format("woff2"), 
+        url("../fonts/DMSerifText-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
