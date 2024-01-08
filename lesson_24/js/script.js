@@ -6,7 +6,7 @@
 Що потрапить в консоль?
 */
 let someVar = 0
-++someVar;
+++someVar
 
 
 if (someVar) {
