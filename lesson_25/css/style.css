@@ -1,0 +1,16 @@
+body {
+    font-size: 20px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+}
+.button {
+    background-color: #864040;
+    padding: 10px 20px;
+}
+.link {
+    display: block;
+}
